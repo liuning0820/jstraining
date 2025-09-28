@@ -19,7 +19,7 @@ $ node -v
 Node 的模块管理器 npm 会一起安装好。由于 Node 的官方模块仓库网速太慢，模块仓库需要切换到阿里的源。
 
 ```bash
-$ npm config set registry https://registry.npm.taobao.org/
+$ npm config set registry https://registry.npmmirror.com/
 ```
 
 执行下面的命令，确认是否切换成功。
@@ -32,7 +32,7 @@ $ npm config get registry
 
 Postman 是一个 HTTP 通信测试工具，REST API 的练习会用到它。
 
-请到官网 [GetPostman.com](https://www.getpostman.com/) 下载独立安装包；也可以参考这篇文章[www.cnblogs.com/mafly/p/postman.html](http://www.cnblogs.com/mafly/p/postman.html)，下载 Chrome 浏览器的插件，它们的效果一样。
+请到官网 [GetPostman.com](https://www.getpostman.com/) 下载独立安装包。
 
 ## 安装示例库
 
